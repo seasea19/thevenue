@@ -32,7 +32,6 @@ class Header extends Component {
         }
     }
 
-
     toggleDrawer = (value) => {
         this.setState ({
             drawerOpen: value
@@ -90,9 +89,3 @@ export default Header;
 
 
 
-
-toggleDrawer = (value) => {
-    this.setState({
-        drawerOpen: value
-    })
-}
